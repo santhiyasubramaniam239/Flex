@@ -1,151 +1,163 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
 }
-.container{
-    
-    
-   
-    display:flex;
+
+.container {
+    display: flex;
     gap: 5px;
-    justify-content:center;
-    align-items:center;
+    justify-content: center;
+    align-items: center;
     margin-top: 10%;
 }
-.header{
+
+.header {
     display: inline-block;
     width: 250px;
     height: 150px;
     margin-top: 1px;
 }
 
-h6{
-    margin-top: 8px;;
+h6 {
+    margin-top: 8px;
+    ;
     text-align: center;
     font-size: smaller;
-    color:rgb(241, 14, 143);
+    color: rgb(241, 14, 143);
 }
-h3{
+
+h3 {
     margin-top: 3px;
     text-align: center;
 }
 
-.box{
+.box {
     display: inline-block;
     border-radius: 3%;
-    width:250px;
-    height:360px;
+    width: 250px;
+    height: 360px;
     background-color: rgb(247, 250, 248);
-  border-color: black;
-  
-  border-style:solid;
-   
+    border-color: black;
+
+    border-style: solid;
+
 
 }
-img{
+
+img {
     border-radius: 3%;
 }
-.content{
+
+.content {
     margin-top: 8px;
     font-size: 12px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
-   
+
     display: inline-block;
 }
-.box1{
-display: inline-flex;
-    width:240px;
-    height:350px;
+
+.box1 {
+    display: inline-flex;
+    width: 240px;
+    height: 350px;
     background-color: orangered;
-  
+
 }
-.bottom1{
+
+.bottom1 {
     display: flex;
-     margin-top: 3%;
-   font-size: small;
-  border-radius: 8px;
-  padding-bottom: 2px;
- 
-   
+    margin-top: 3%;
+    font-size: small;
+    border-radius: 8px;
+    padding-bottom: 2px;
+
+
 }
-.footer1{
-   padding-bottom: 5px;
-     display:inline-flex ;
-     width:83px;
-       border-right: 1px solid rgb(116, 5, 79);
-  margin-top: 12px;
-   justify-content: center;
- 
-     background-color: rgb(247, 28, 170);
+
+.footer1 {
+    padding-bottom: 5px;
+    display: inline-flex;
+    width: 83px;
+    border-right: 1px solid rgb(116, 5, 79);
+    margin-top: 12px;
+    justify-content: center;
+
+    background-color: rgb(247, 28, 170);
     border-radius: 2px;
- 
-    
+
+
 }
-numbers{
+
+numbers {
     font-size: large;
 }
-.footer2{
-     display:inline-flex ;
-     width:83px;
-     padding-top: 3px;
-     justify-content: center;
-      border-right: 1px solid rgb(116, 5, 79);
-         background-color: rgb(251, 120, 205);
-      margin-top: 12px;
-     background-color: rgb(247, 28, 170);
-}
-.footer3{
-     display:inline-flex ;
+
+.footer2 {
+    display: inline-flex;
+    width: 83px;
     padding-top: 3px;
-     width:84px;
+    justify-content: center;
+    border-right: 1px solid rgb(116, 5, 79);
+    background-color: rgb(251, 120, 205);
     margin-top: 12px;
-  justify-content: center;
     background-color: rgb(247, 28, 170);
-     border-radius: 2px;
 }
 
-.foo1{
-   width:25px;   
+.footer3 {
     display: inline-flex;
-   height: 42px;
-   text-align: center;
-   padding-bottom: 10px;
-   margin-top: 8px;
+    padding-top: 3px;
+    width: 84px;
+    margin-top: 12px;
+    justify-content: center;
+    background-color: rgb(247, 28, 170);
+    border-radius: 2px;
 }
-.foo2{
-   margin-top: 10px;
-     width:50px;   
+
+.foo1 {
+    width: 25px;
     display: inline-flex;
-   height: 30px;
-   text-align: center;
+    height: 42px;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-top: 8px;
 }
-.foo3{
+
+.foo2 {
     margin-top: 10px;
-     width:50px;
+    width: 50px;
     display: inline-flex;
-   height: 30px;
- 
-     text-align: center;
-}
-h5{
-    color: rgb(253, 243, 243);
-   
+    height: 30px;
+    text-align: center;
 }
 
-.box2{
+.foo3 {
+    margin-top: 10px;
+    width: 50px;
     display: inline-flex;
-    width:250px;
-    height:350px;
+    height: 30px;
+
+    text-align: center;
+}
+
+h5 {
+    color: rgb(253, 243, 243);
+
+}
+
+.box2 {
+    display: inline-flex;
+    width: 250px;
+    height: 350px;
     background-color: rgb(168, 59, 110);
     border-radius: 10px;
-  
-}
-.box3{
-    display: inline-flex;
-    width:250px;
-    height:350px;
-    background-color: rgb(225, 248, 24);
-  
+
 }
 
+.box3 {
+    display: inline-flex;
+    width: 250px;
+    height: 350px;
+    background-color: rgb(225, 248, 24);
+
+}

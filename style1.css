@@ -55,7 +55,11 @@
 
 .container {
     display: flex;
+<<<<<<< HEAD
     /*  display: inline-flex;
+=======
+  /*  display: inline-flex;
+>>>>>>> 71f8287587bf7faa142af96952658cf3af696d56
      flex-direction:row;
      flex-direction: row-reverse;
     flex-direction: column-reverse;
@@ -88,9 +92,15 @@
               align-content: space-between;
                align-content:space-around;
               align-content:center;*/
+<<<<<<< HEAD
     height: 600px;
     align-items: stretch;
     flex-direction: column;
+=======
+               height: 600px;
+               align-items:stretch;
+               flex-direction: column;
+>>>>>>> 71f8287587bf7faa142af96952658cf3af696d56
 
 }
 
@@ -143,7 +153,11 @@
 
 /*.flex-item{
     flex-shrink:0;
+<<<<<<< HEAD
    
+=======
+    
+>>>>>>> 71f8287587bf7faa142af96952658cf3af696d56
     width: 100px;
     flex-basis: auto;
 }*/

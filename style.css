@@ -2,11 +2,13 @@
     margin: 0;
     padding: 0;
 }
-
+body{
+    background-color: rgb(253, 231, 203);
+}
 .container {
     display: flex;
     gap: 5px;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
     margin-top: 10%;
 }
@@ -23,7 +25,7 @@ h6 {
     ;
     text-align: center;
     font-size: smaller;
-    color: rgb(241, 14, 143);
+    
 }
 
 h3 {
@@ -34,12 +36,13 @@ h3 {
 .box {
     display: inline-block;
     border-radius: 3%;
+    
     width: 250px;
     height: 360px;
-    background-color: rgb(247, 250, 248);
-    border-color: black;
-
-    border-style: solid;
+    background-color: rgb(248, 249, 248);
+   box-shadow: 0.2px 0.2px 0.3px 0.3px;
+   
+    
 
 
 }
@@ -50,7 +53,7 @@ img {
 
 .content {
     margin-top: 8px;
-    font-size: 12px;
+    font-size: 11px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
 
@@ -58,21 +61,22 @@ img {
 }
 
 .box1 {
-    display: inline-flex;
-    width: 240px;
-    height: 350px;
-    background-color: orangered;
+    display: inline-block;
+    border-radius: 3%;
+    width: 250px;
+    height: 360px;
+    background-color: rgb(248, 249, 248);
+   box-shadow: 0.2px 0.2px 0.3px 0.3px;
 
 }
 
 .bottom1 {
     display: flex;
-    margin-top: 3%;
+    margin-top: 4.2%;
     font-size: small;
     border-radius: 8px;
     padding-bottom: 2px;
-
-
+    
 }
 
 .footer1 {
@@ -82,8 +86,8 @@ img {
     border-right: 1px solid rgb(116, 5, 79);
     margin-top: 12px;
     justify-content: center;
-
-    background-color: rgb(247, 28, 170);
+    
+   
     border-radius: 2px;
 
 
@@ -99,9 +103,9 @@ numbers {
     padding-top: 3px;
     justify-content: center;
     border-right: 1px solid rgb(116, 5, 79);
-    background-color: rgb(251, 120, 205);
+  
     margin-top: 12px;
-    background-color: rgb(247, 28, 170);
+   
 }
 
 .footer3 {
@@ -110,7 +114,7 @@ numbers {
     width: 84px;
     margin-top: 12px;
     justify-content: center;
-    background-color: rgb(247, 28, 170);
+  
     border-radius: 2px;
 }
 
@@ -146,18 +150,12 @@ h5 {
 }
 
 .box2 {
-    display: inline-flex;
+    display: inline-block;
+    border-radius: 3%;
     width: 250px;
-    height: 350px;
-    background-color: rgb(168, 59, 110);
-    border-radius: 10px;
+    height: 360px;
+    background-color: rgb(248, 249, 248);
+   box-shadow: 0.2px 0.2px 0.3px 0.3px;
 
 }
 
-.box3 {
-    display: inline-flex;
-    width: 250px;
-    height: 350px;
-    background-color: rgb(225, 248, 24);
-
-}
